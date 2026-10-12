@@ -1,0 +1,58 @@
+[
+  {
+    "name": "FiiO M33 R2R",
+    "kind": "ftp",
+    "host": "192.168.1.100",
+    "port": 2100,
+    "user": "yourname",
+    "volumes": [
+      {"label": "music on M33 R2R Micro SD", "prefix": "/storage/external_sd/music/"},
+      {"label": "Music on Internal shared storage", "prefix": "/storage/emulated/0/Music/"}
+    ],
+    "deploy_dirs": ["/music on M33 R2R Micro SD", "/foobar2000 Music Folder"],
+    "separator": "/",
+    "extension": ".m3u8",
+    "decode_percent": false
+  },
+  {
+    "name": "iBasso DX180",
+    "kind": "ftp",
+    "host": "192.168.1.101",
+    "port": 2100,
+    "user": "yourname",
+    "volumes": [
+      {"label": "music on SD card", "prefix": "/storage/XXXX-XXXX/music/"},
+      {"label": "Music on Internal shared storage", "prefix": "/storage/emulated/0/Music/"}
+    ],
+    "deploy_dirs": ["/music on SD card", "/foobar2000 Music Folder"],
+    "separator": "/",
+    "extension": ".m3u8",
+    "decode_percent": false
+  },
+  {
+    "name": "Shanling M0 Pro",
+    "kind": "usb",
+    "usb_root": "D:\\",
+    "volumes": [
+      {"label": "music", "prefix": "A:\\music\\"}
+    ],
+    "deploy_dirs": ["_explaylist_data"],
+    "separator": "\\",
+    "extension": ".m3u",
+    "decode_percent": false
+  },
+  {
+    "name": "iPhone",
+    "kind": "ftp",
+    "host": "192.168.1.102",
+    "port": 21,
+    "user": "yourname",
+    "volumes": [
+      {"label": "foobar2000 Music Folder", "prefix": ""}
+    ],
+    "deploy_dirs": ["/foobar2000 Music Folder"],
+    "separator": "/",
+    "extension": ".m3u8",
+    "decode_percent": true
+  }
+]

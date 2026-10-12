@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.playlistpilot/
+*.log
+.DS_Store
+Thumbs.db
+devices.json
